@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head><title>Loging</title></head>
+<style>
+body {
+  background-image: url('log.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.btn1 {
+  position: absolute;
+  top: 60%;
+  left: 33.33%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #66ff33;
+  color: black;
+  font-size: 32px;
+  padding: 24px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn1:hover {
+
+  background-color: black;
+  color: white;
+}
+
+.btn2 {
+  position: absolute;
+  top: 60%;
+  left: 66.66%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:#ffc34d;
+  color: black;
+  font-size: 32px;
+  padding: 24px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn2:hover {
+
+  background-color: black;
+  color: white;
+}
+
+img{
+  border-radius: 10px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+h1{
+  color: #ffffff;
+  font-size: 60px;
+
+}
+.p1{
+  position: absolute;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+
+
+
+</style>
+<body>
+  <header><h1 align="center">AudioVizzion</h1></header>
+  
+  <img src="logo.jpg" alt="logo" width="150" height="100">
+
+  <p class="p1"><strong>Pleace select your device category...</strong></p> 
+  <FORM action="visual.php" method="get"><button class="btn1">Visual device</button></FORM>
+  <FORM action="hearing.php" method="get" ><button class="btn2">Hearing device</button></FORM>
+
+
+</body>
+</html>
